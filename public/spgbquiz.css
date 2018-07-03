@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #212831;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #46e3eb;
+}
+
+.button {
+    background-color: #46e3eb; /* Main color */
+    border: none;
+    color: black;
+    font-weight:bold ;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h2{
+ text-align:center; 
+}
+
+body {
+font-size: 18px;
+    color: #46e3eb;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+}
+
+question {
+ font-size: 22px; 
+}
+
+.button2 {
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: #f70e92; /* pink-kinda */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button4 {
+    background-color: #e06bd2; /* purple-kinda */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*background color for quizzes*/
+body{
+  background: #212831
+  }
+  header{
+  background: #212831
+  }
+  footer{
+  background: #212831
+  }
+
+/* Customize the label (the container) */
+.container {
+  
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+anspage{
+  text-align:center;
+  font-size:25px;
+}
+
+ans{
+ font-size: 25px;
+}
